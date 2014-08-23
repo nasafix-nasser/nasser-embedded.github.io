@@ -6,7 +6,7 @@ title: A Silly Fault
 {{ page.title }}
 ================
 
-<p class="meta">03 Aug 2014 - San Francisco</p>
+<p class="meta">03 Aug 2014 - Bei jing</p>
 
 愚蠢的错误
 ====
