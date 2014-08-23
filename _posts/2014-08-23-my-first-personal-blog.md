@@ -19,11 +19,10 @@ title: First Personal Blog
 * week conclusion.
 * book review.
 * maybe some feng yue story.:).
-----
 
 Learn Programming In 10 Years
 ---
 no pride, Don''t anxious to achieve quick success and get instant benefits(急功近利):)
----
+
 
 
