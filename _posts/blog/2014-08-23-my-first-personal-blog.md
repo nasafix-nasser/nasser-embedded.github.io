@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Personal Blog
+category: blog
 ---
 
 {{ page.title }}

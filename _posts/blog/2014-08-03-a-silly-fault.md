@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Silly Fault
+category: blog
 ---
 
 {{ page.title }}
