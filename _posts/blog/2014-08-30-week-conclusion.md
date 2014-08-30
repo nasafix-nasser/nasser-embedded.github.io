@@ -31,10 +31,12 @@ Git
     git fetch shishougang
     git merge shishougang/gh-pages
 
+
 Web
 ---
 [HTML教程](http://w3school.com.cn/html/index.asp) 和 部分[CSS教程](http://w3school.com.cn/css/index.asp)
 [Web基础](http://www.zhihu.com/question/22689579/answer/22318058)
+
 Web模板和编写[shishougang的wiki](https://github.com/shishougang/wiki)不错,不过用了emacs和org-mode,不会emacs,要用什么写网页呢?
 
 Algorithm
