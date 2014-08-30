@@ -27,17 +27,14 @@ Git
 [Wiki](https://github.com/liuluheng/wiki)是fork的[shishougang的wiki](https://github.com/shishougang/wiki)删了CNAME,然后想要同步shishougang的wiki,网页上同步不成功.改用命令行.
 参考了[这个](http://www.haojii.com/2011/08/how-to-git-merge-from-forked-repository/)
 
-    ```sh
     git remote add shishougang https://github.com/shishougang/wiki
     git fetch shishougang
     git merge shishougang/gh-pages
-    ```
 
 Web
 ---
 [HTML教程](http://w3school.com.cn/html/index.asp) 和 部分[CSS教程](http://w3school.com.cn/css/index.asp)
-
-[基础](http://www.zhihu.com/question/22689579/answer/22318058)
+[Web基础](http://www.zhihu.com/question/22689579/answer/22318058)
 
 Algorithm
 ---
