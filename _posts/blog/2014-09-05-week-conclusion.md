@@ -43,9 +43,9 @@ Programming gets funny for me when I get to use one algorithm or a language feat
 Effective STL
 ---
 review some items..
-Item 7. When using containers of newed pointers, remember to delete the pointers before the container is destroyed.
-Item 9. Choose carefully among erasing options.
-Item 26. 27. 28. 29. all about Iterators..
+* Item 7. When using containers of newed pointers, remember to delete the pointers before the container is destroyed.
+* Item 9. Choose carefully among erasing options.
+* Item 26. 27. 28. 29. all about Iterators..
 
 Gists
 ---
