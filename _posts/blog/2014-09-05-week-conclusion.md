@@ -13,26 +13,22 @@ feof/fseek
 ---
 这周实验室项目要读一个二进制文件，用到了*feof/fseek*.
 类似下面这样，
-```C++
-while (feof(file)) {
-    fseek(file, offset, SEEK_CUR);
-}
-```
+<script src="https://gist.github.com/liuluheng/71fb1b2539dd4610b980.js"></script>
 然后直接busy loop了，原因是fseek即使到了文件结尾也不会设置eof标志([代码](https://github.com/liuluheng/How-to-Make-a-Computer-Operating-System/blob/master/src/sdk/src/libc/src/stdio/fseek.c#L12)),fseek直接调用lseek后者直接调用系统调用([代码](https://github.com/liuluheng/How-to-Make-a-Computer-Operating-System/blob/master/src/sdk/src/libc/src/unistd/lseek.c#L13)),fseek只是多了一层对FILE结构体的清理.
 
 
 解决办法:添加fread, 在fread后加feof判断,
 
 Looks like
-```C++
-while (1) {
-    fread(dummy_buf, size, nmemb, file);
-    if (feof(file)) {
-        break;
+
+    while (1) {
+        fread(dummy_buf, size, nmemb, file);
+        if (feof(file)) {
+            break;
+        }
+        fseek(file, offset, SEEK_CUR);
     }
-    fseek(file, offset, SEEK_CUR);
-}
-```
+
 fseek在处理文件偏移的时候比fread高效, fread uses fgetc, so we keep fseek, and only need a single fread to check the eof.
 
 
