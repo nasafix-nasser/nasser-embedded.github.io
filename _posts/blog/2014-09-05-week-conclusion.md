@@ -37,8 +37,8 @@ Algorithm
 Read the [cracking the code interview](http://hawstein.com/posts/ctci-solutions-contents.html) till to Chapter 5.
 And some [leetcode](https://github.com/liuluheng/leetcode/tree/master/C%2B%2B)
 
-Algorithm is useful, when I doing my project, I will always thinking to use some algorithms or some cool data structures. That is funny.
-Programming gets funny for me when I get to use one algorithm or a language feature.
+Algorithm is useful, when I doing my project, I will always thinking to use some algorithms or some cool data structures. That is interesting.
+Programming gets interesting for me when I get to use one algorithm or a language feature.
 
 Effective STL
 ---
