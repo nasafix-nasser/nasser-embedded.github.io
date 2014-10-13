@@ -1,0 +1,79 @@
+<h1 align="center">个人简历</h1>
+## 个人信息
+---
+<table cellpadding="">
+
+<tr>
+<td><b>姓名</b>：<a href="http://liuluheng.github.io">刘禄恒</a></td>
+<td><b>性别</b>：男<i>(1989.11.03)</i></td>
+</tr>
+<tr>
+<td><b>电话</b>：15652932063</td> 
+<td><b>Email</b>：<a href="mailto:llh1989@126.com">llh1989@126.com</td>
+</tr>
+<tr>
+<td colspan="2"><b>英语水平</b>：四级 525 六级 514。无障碍阅读英文文献。</td>
+</tr>
+</table>
+
+## 教育背景
+---
+* **华北计算机系统工程研究所** 	*硕士(2013.09-2015.07)*
+    -  实时嵌入式操作系统的研究
+    -  数据库采集系统的设计与实现
+
+* **中国科学院研究生院** 	*硕士(2012.09-2013.07)*
+    -  专业：计算机科学与技术(研一上课)
+
+* **中国矿业大学(北京)** 	*本科(2008.09-2012.07)*
+    -  专业：电气工程与自动化（成绩前**10%**)
+    -  **三次**校二等奖学金
+
+## 技术能力
+---
+擅长linux服务器端C/C++开发。
+
+* 精通C语言，熟悉C++。
+* 熟悉Lua，Python, shell脚本语言。
+* 熟练使用vim, gdb, git工具。
+* 熟悉常用数据结构与算法, 熟悉C++ STL。
+* 熟悉操作系统原理，数据库，文件系统。
+* 熟悉网络编程，多线程编程, 熟悉TCP/IP协议。
+* 熟悉reactor等常见编程模式。
+* 熟悉muduo, leveldb, libevent等开源项目。
+
+## 实习经历
+---
+###聚网恒通　*(2013.05-2013.09, 2014.03)* 
+
+* **sip服务器研发**。
+    * 作为项目研发人员，完成服务器日志系统的编写，在多线程环境下更容易定位bug，方便服务器的调试；
+    * 为sip服务器添加模块实现服务器的级联；
+    * 封装与Mysql数据库通信的API，方便sip服务器与Mysql交互，即增、删、改、查设备信息；
+
+* 媒体服务器研发。
+    * 作为项目研发人员，完成媒体服务器主要功能的编写，包括与sip服务器通信，与摄像头通信；
+
+## 实验室项目
+---
+* 实现modbus, iec104通讯协议。
+* 实现数据库采集子系统。
+    * 作为项目负责人，利用libevent库实现了基于modbus,iec104协议的多终端的多点采集系统;
+* 将uCos-II移植到x86架构上，在其上运行实验室项目程序。
+    * 在bochs虚拟机上boot启动。
+
+## 开源项目
+---
+### [levmu](https://github.com/liuluheng/levmu)
+* 基于redis协议，实现用muduo通讯，用leveldb进行存储。
+* 轻松实现10k连接的数据存储
+### [scmus](https://github.com/liuluheng/codereading/tree/master/learn-cmus/scmus) 
+* 从cmus提取出来的一个简单音乐播放器。
+### [fql](https://github.com/liuluheng/fql)
+* fql的代码贡献者。
+* fql实现用SQL语句操作文件，用到了ragel有限状态机编译器,和lemon语法生成器。
+
+
+### Others
+其他的可以上 [Github](https://github.com/liuluheng) 查看。
+
