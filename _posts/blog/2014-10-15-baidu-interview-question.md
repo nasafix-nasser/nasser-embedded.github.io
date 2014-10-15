@@ -24,18 +24,14 @@ Answer
 ---
 
 1.
-2.
-    [ COMPILER, ASSEMBLER, LINKER AND LOADER: A BRIEF STORY ](http://www.tenouk.com/ModuleW.html)
+2.  [ COMPILER, ASSEMBLER, LINKER AND LOADER: A BRIEF STORY ](http://www.tenouk.com/ModuleW.html)
 
 3.
 4.
 
-5.
-    [google](http://209.116.186.231/#newwindow=1&q=new+malloc+difference)
+5.  [google](http://209.116.186.231/#newwindow=1&q=new+malloc+difference)
     [stackoverflow](http://stackoverflow.com/questions/807939/what-is-the-difference-between-new-and-malloc-and-calloc-in-c)
     [stackoverflow](http://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free)
 
-6.
-7.
-    [slice/cstring.cc](https://github.com/liuluheng/CTCI/blob/master/slice/cstring.cc)
-    [slice/quicksort.cc](https://github.com/liuluheng/CTCI/blob/master/slice/quicksort.cc)
+6.  [slice/cstring.cc](https://github.com/liuluheng/CTCI/blob/master/slice/cstring.cc)
+7.  [slice/quicksort.cc](https://github.com/liuluheng/CTCI/blob/master/slice/quicksort.cc)
