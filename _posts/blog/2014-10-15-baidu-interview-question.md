@@ -27,7 +27,7 @@ Answer
 2.  [ COMPILER, ASSEMBLER, LINKER AND LOADER: A BRIEF STORY ](http://www.tenouk.com/ModuleW.html)
 
 3.
-4.
+4.  [Multi-threading vs. multi-processing](http://www.paulbridger.com/node/17/)
 
 5.  [google](http://209.116.186.231/#newwindow=1&q=new+malloc+difference)
     [stackoverflow](http://stackoverflow.com/questions/807939/what-is-the-difference-between-new-and-malloc-and-calloc-in-c)
