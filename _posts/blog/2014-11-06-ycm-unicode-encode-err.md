@@ -13,8 +13,8 @@ Question
 ---
 前段时间升级了下YouCompleteMe 把里边(应该是vimsupport.py)自己添加的两行设置字符编码的代码给删了(:(),导致现在路径里包含中文,跳转就会出错.
 
-        /home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/vimsupport.py:309: UnicodeWarning: Unicode unequal comparison failed to convert both arguments 
-        to Unicode - interpreting them as being unequal                                                                                                                
+        /home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/vimsupport.py:309: UnicodeWarning: Unicode unequal comparison failed to convert 
+        both arguments to Unicode - interpreting them as being unequal                                                                                                                
           if filename != GetCurrentBufferFilepath():                                                                                                                   
           Traceback (most recent call last):                                                                                                                             
             File "<string>", line 1, in <module>                                                                                                                         
@@ -22,7 +22,8 @@ Question
                   return SendCommandRequest( arguments, completer )                                                                                                          
                     File "/home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/command_request.py", line 79, in SendCommandRequest                             
                         request.RunPostCommandActionsIfNeeded()                                                                                                                    
-                          File "/home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/command_request.py", line 70, in RunPostCommandActionsIfNeeded                  
+                          File "/home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/command_request.py", line 70, in 
+                          RunPostCommandActionsIfNeeded                  
                               self._response[ 'column_num' ] )                                                                                                                           
               File "/home/beginner/.vim/bundle/YouCompleteMe/autoload/../python/ycm/vimsupport.py", line 321, in JumpToLocation                                            
                 EscapedFilepath( filename ) ) )                                                                                                                            
