@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td><b>电话</b>：15652932063</td> 
-<td><b>Email</b>：<a href="mailto:llh1989@126.com">llh1989@126.com</td>
+<td><b>Email</b>：<a href="mailto:llhProgramming@126.com">llhProgramming@126.com</td>
 </tr>
 <tr>
 <td colspan="2"><b>英语水平</b>：四级 525 六级 514。无障碍阅读英文文献。</td>
